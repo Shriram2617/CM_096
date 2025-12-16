@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f4f6f9;
+  display: flex;
+  align-items: center;
+  block-size: 100vh;
+  padding-inline-start: 200px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/023/221/109/non_2x/banking-and-finance-concept-digital-connect-system-financial-and-banking-technology-with-integrated-circles-glowing-line-icons-and-on-blue-background-design-vector.jpg');
+  background-size: 100% 100%;
+}
+
+.container {
+  background: rgb(240, 242, 244);
+  padding: 25px;
+  inline-size: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+input, textarea {
+  inline-size: 100%;
+  padding: 10px;
+  margin-block-end: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  block-size: 60px;
+}
+
+button {
+  inline-size: 100%;
+  padding: 10px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004182;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  text-align: center;
+}

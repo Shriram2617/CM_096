@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Credit Card Onboarding</h2>
+
+    <form id="cardForm">
+      <input type="text" id="name" placeholder="Full Name">
+      <input type="email" id="email" placeholder="Email Address">
+      <input type="text" id="mobile" placeholder="Mobile Number">
+      <textarea id="address" placeholder="Address"></textarea>
+      <input type="number" id="income" placeholder="Monthly Income">
+
+      <button type="submit">Submit Application</button>
+    </form>
+
+    <div id="successMessage" class="hidden">
+      <h3>🎉 Application Submitted!</h3>
+      <p id="userName"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
